@@ -1,0 +1,5 @@
+insert into tva_rate(code, value) values ('2014_NORMAL', 20), ('2014_MIDDLE', 10), ('2014_REDUCE', 5.5), ('2014_PERSON', 2.1);
+insert into public.user (id, name, street_number, street, postalCode, city) values ('884308fc-5d91-4342-9211-1288de936425', 'Pablo Lemaire', '12 bis', 'avec Nicolas Chuquet', '75017', 'Paris');
+insert into company(id, name, street_number, street, postalCode, city, website) values ('2da694ec-5f25-4724-9fd8-125ecb17e3d5', 'Okayo', '67', 'avenue de la marne', '92600', 'Asnière sur Seine', 'www.okayo.fr');
+insert into catalog_item(id, description, unitPrice, vatRate) values ('403b91f2-0d94-4078-8b27-c1df76b6a206', 'item_1', 125.2, '2014_NORMAL'),('d78d8627-3b5c-4fa8-a07f-2ade656b4cc9', 'item_2', 10, '2014_MIDDLE'),('eb0a93a9-264f-46dd-ac9f-61d3d6eecce7', 'item_3', 500, '2014_REDUCE');
+insert into invoice()
